@@ -1,3 +1,9 @@
+# Code used for thesis 'Preconditioned Iteratively Reweighted Norm Algorithm for Computed Tomography Inverse Problems'
+
+This is a fork of the CIL-demos, used for a bachelors thesis in applied mathematics at the University of Groningen. The IRN algorithm based on (Rodriguez and Wohlberg, 2006) is implemented and a preconditioner from (Chen et al., 2015) is applied and implemented to a Total Variation (TV) regularised minimisation problem to solve Computed Tomography inverse problems. 
+
+In 'new_contributions' all code for this project can be found. In 'new_contributions' -> 'IRN' -> 'final_files' all final functions can be found in 'Final_results'. This includes the option for preconditioning for TV regularisation. In the file 'results_outdated' variables are not changed to match the thesis variables and a small mistake in the CG algorithm is not changed. The file is kept in to show code used to create figures. In the folders 'lasso_regularisation' and 'total_variation_regularisation', code is given with a manual CG implementation and the cgls function for both lasso regularised and TV regularised minimisation problems respectively. All other files are used for creating figures for Chapter 2, this is not original code, or to create smaller parts of the final code. 
+
 # CIL on the Cloud
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TomographicImaging/CIL-Demos/HEAD?urlpath=lab/tree/binder%2Findex.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TomographicImaging/CIL-Demos/blob/main/colab/CIL_Colab.ipynb)
